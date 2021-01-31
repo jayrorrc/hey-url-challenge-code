@@ -14,13 +14,15 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col s12">
-    <div class="card-panel">
-      <div id="total-clicks-chart"></div>
+<% if @daily_clicks.length() > 0 %>
+  <div class="row">
+    <div class="col s12">
+      <div class="card-panel">
+        <div id="total-clicks-chart"></div>
+      </div>
     </div>
   </div>
-</div>
+<% end %>
 
 <div class="row">
   <div class="col s6">
@@ -92,7 +94,10 @@
   }
 
   function drawCharts() {
-    drawTotalClicksChart();
+    if (<%= raw @daily_clicks %>.length) {
+      drawTotalClicksChart();
+    }
+
     drawBrowsersChart();
     drawPlatformsChart();
   }
