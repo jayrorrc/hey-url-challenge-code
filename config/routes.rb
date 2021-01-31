@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   resources :urls, only: %i[index create show], param: :url
   get ':url', to: 'urls#visit', as: :visit
+
+  get '/404', :to => redirect('/404.html'), as: :not_found
 end
