@@ -1,0 +1,62 @@
+original_url = Url.find_by(short_url: 123)
+
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'macOS', browser: 'Safari', url: original_url)
+Click.create(platform: 'macOS', browser: 'Safari', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
+
+original_url = Url.find_by(short_url: 456)
+
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'macOS', browser: 'Safari', url: original_url)
+Click.create(platform: 'macOS', browser: 'Safari', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
+
+original_url = Url.find_by(short_url: 789)
+
+Click.create(platform: 'Windows', browser: 'IE', url: original_url)
+Click.create(platform: 'Windows', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Windows', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'macOS', browser: 'Safari', url: original_url)
+Click.create(platform: 'macOS', browser: 'Firefox', url: original_url)
+Click.create(platform: 'macOS', browser: 'Chrome', url: original_url)
+
+Click.create(platform: 'Ubuntu', browser: 'Firefox', url: original_url)
+Click.create(platform: 'Ubuntu', browser: 'Chrome', url: original_url)
